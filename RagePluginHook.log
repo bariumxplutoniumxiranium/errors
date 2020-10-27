@@ -1,0 +1,886 @@
+[27.10.2020 20:03:57.037] Started new log on 27.10.2020 20:03:57.037
+[27.10.2020 20:03:57.038] ====================================================================================================
+[27.10.2020 20:03:57.034] Log path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\RagePluginHook.log
+[27.10.2020 20:03:57.038] Log verbosity: Trivial
+[27.10.2020 20:03:57.040] Initializing input system
+[27.10.2020 20:03:57.041] Initializing game console
+[27.10.2020 20:03:57.045] Console key has been set to F4 (key code: 115)
+[27.10.2020 20:03:57.080] Initializing console variable "ConsoleScrollAmount".
+[27.10.2020 20:03:57.080] Type: System.Int32, Reading section: "Miscellaneous", key: ConsoleScrollAmount
+[27.10.2020 20:03:57.082] Read value: <null>
+[27.10.2020 20:03:57.082] Initializing console variable "ConsoleKey".
+[27.10.2020 20:03:57.082] Type: System.Windows.Forms.Keys, Reading section: "Miscellaneous", key: ConsoleKey
+[27.10.2020 20:03:57.083] Read value: F4
+[27.10.2020 20:03:57.083] Setting value of console variable "ConsoleKey" to stored value.
+[27.10.2020 20:03:57.083] Console key has been set to F4 (key code: 115)
+[27.10.2020 20:03:57.083] Initializing console variable "PluginTimeoutThreshold".
+[27.10.2020 20:03:57.083] Type: System.Int32, Reading section: "Miscellaneous", key: PluginTimeoutThreshold
+[27.10.2020 20:03:57.084] Read value: 10000
+[27.10.2020 20:03:57.084] Setting value of console variable "PluginTimeoutThreshold" to stored value.
+[27.10.2020 20:03:57.084] Initializing console variable "AlwaysShowConsoleOutput".
+[27.10.2020 20:03:57.084] Type: System.Boolean, Reading section: "Miscellaneous", key: AlwaysShowConsoleOutput
+[27.10.2020 20:03:57.085] Read value: <null>
+[27.10.2020 20:03:57.085] Initializing console variable "ShowConsoleCommandInfoOnPluginLoad".
+[27.10.2020 20:03:57.085] Type: System.Boolean, Reading section: "Miscellaneous", key: ShowConsoleCommandInfoOnPluginLoad
+[27.10.2020 20:03:57.085] Read value: False
+[27.10.2020 20:03:57.085] Setting value of console variable "ShowConsoleCommandInfoOnPluginLoad" to stored value.
+[27.10.2020 20:03:57.085] Initializing console variable "ShowOnScreenWarnings".
+[27.10.2020 20:03:57.085] Type: System.Boolean, Reading section: "Miscellaneous", key: ShowOnScreenWarnings
+[27.10.2020 20:03:57.085] Read value: <null>
+[27.10.2020 20:03:57.085] Console initialized
+[27.10.2020 20:03:57.085] Initializing forms manager
+[27.10.2020 20:03:57.086] Cleaning temp folder
+[27.10.2020 20:03:57.087] Version: RAGE Plugin Hook v1.81.1410.16064 for Grand Theft Auto V
+[27.10.2020 20:03:57.091] ================ RAGE Plugin Hook ================
+[10/27/2020 8:03:57 PM.093] Command line option "windowed-disableCustomLoadingScreen" is specified twice. Please remove one.
+[10/27/2020 8:03:57 PM.093] Command line option "ignoreDifferentVideoCard-disableCustomLoadingScreen" is specified twice. Please remove one.
+[10/27/2020 8:03:57 PM.093] Command line option "disableCustomLoadingScreen" is specified twice. Please remove one.
+[10/27/2020 8:03:57 PM.093] Command line option "DX11" is specified twice. Please remove one.
+[10/27/2020 8:03:57 PM.093] Command line option "windowed" is specified twice. Please remove one.
+[10/27/2020 8:03:57 PM.093] Command line option "borderless" is specified twice. Please remove one.
+[10/27/2020 8:03:57 PM.093] Command line option -disableCustomLoadingScreen is specified; disabling custom loading screen rendering.
+[10/27/2020 8:03:57 PM.095] Detected Windows 10 Home (64-bit) (10.0.18363.0)!
+[10/27/2020 8:03:57 PM.096] Checking game support
+[10/27/2020 8:03:57 PM.178] Product name: Grand Theft Auto V
+[10/27/2020 8:03:57 PM.178] Product version: 1.0.2060.1
+[10/27/2020 8:03:57 PM.178] Is steam version: True
+[10/27/2020 8:03:57 PM.179] Initializing DirectX
+[10/27/2020 8:03:57 PM.180] Initializing Direct3D
+[10/27/2020 8:03:57 PM.180] Getting game swap chain
+[10/27/2020 8:03:57 PM.201] Swap Chain created: 0x7FF6E06A1608
+[10/27/2020 8:03:57 PM.202] Swap Chain VTable: 0x2607FB13820
+[10/27/2020 8:03:57 PM.202] 0x748948FFF9BD25E9;0x8D48564157552024;0x170EC814890246C
+[10/27/2020 8:03:57 PM.202] D3D11Present: 0x7FFD1E644660
+[10/27/2020 8:03:57 PM.202] D3D11ResizeBuffers: 0x7FFD1E659DB0
+[10/27/2020 8:03:57 PM.202] D3D11ResizeTarget: 0x7FFD1E6A7B90
+[10/27/2020 8:03:57 PM.202] D3D11SetFullscreenState: 0x7FFD1E661900
+[10/27/2020 8:03:57 PM.202] Direct3D initialized
+[10/27/2020 8:03:57 PM.202] Initialized DirectX
+[10/27/2020 8:03:57 PM.202] Direct3D watcher thread spawned
+[10/27/2020 8:03:57 PM.218] Getting device
+[10/27/2020 8:03:57 PM.218] Retrieved device
+[10/27/2020 8:03:57 PM.218] Creating wrapper
+[10/27/2020 8:03:57 PM.278] Wrapper created
+[10/27/2020 8:03:57 PM.282] Effect created
+[10/27/2020 8:03:57 PM.282] Creating buffer
+[10/27/2020 8:03:57 PM.282] Created buffer
+[10/27/2020 8:03:57 PM.282] Creating blend state
+[10/27/2020 8:03:57 PM.282] Created blend state
+[10/27/2020 8:03:57 PM.282] Done with creation
+[10/27/2020 8:03:57 PM.312] Initializing texture system.
+[10/27/2020 8:03:57 PM.312] Initializing texture system; phase 1
+[10/27/2020 8:03:57 PM.312] Initializing texture system; phase 2
+[10/27/2020 8:03:57 PM.316] Initializing texture system; phase 3
+[10/27/2020 8:03:57 PM.317] Initializing texture system; phase 4
+[10/27/2020 8:03:57 PM.323] Initializing texture system; phase 5
+[10/27/2020 8:03:57 PM.324] Initializing texture system; phase 6
+[10/27/2020 8:03:57 PM.325] Initializing texture system; phase 7
+[10/27/2020 8:03:57 PM.326] Initializing texture system; phase 8
+[10/27/2020 8:03:57 PM.327] Initializing texture system; phase 9
+[10/27/2020 8:03:57 PM.327] Initializing texture system; phase 10
+[10/27/2020 8:03:57 PM.329] Initializing texture system; phase 11
+[10/27/2020 8:03:57 PM.329] Initializing texture system; phase 12
+[10/27/2020 8:03:57 PM.330] Initializing texture system; phase 13
+[10/27/2020 8:03:57 PM.330] Initializing texture system; phase 14
+[10/27/2020 8:04:02 PM.203] Direct3D watcher thread ended
+[10/27/2020 8:04:28 PM.304] LoadingScreenMsg: Initializing game support
+[10/27/2020 8:04:28 PM.555] Initializing game support
+[10/27/2020 8:04:33 PM.968] LoadingScreenMsg: Velocity limit removed
+[10/27/2020 8:04:34 PM.268] Compatibility level: 0
+[10/27/2020 8:04:34 PM.268] Supported version detected
+[10/27/2020 8:04:34 PM.268] ==================================================
+[10/27/2020 8:04:34 PM.268] LoadingScreenMsg: Patching code
+[10/27/2020 8:04:34 PM.519] LoadingScreenMsg: Waiting for game initialization
+[10/27/2020 8:04:34 PM.769] Waiting for game initialization
+[10/27/2020 8:04:34 PM.870] LoadingScreenMsg: Initializing core
+[10/27/2020 8:04:35 PM.121] Initializing hook
+[10/27/2020 8:04:40 PM.138] LoadingScreenMsg: Completing interoperability
+[10/27/2020 8:04:40 PM.389] Completing interoperability
+[10/27/2020 8:04:40 PM.389] Initialization code 1.
+[10/27/2020 8:04:40 PM.389] Initialization code 2.
+[10/27/2020 8:04:40 PM.389] Initialization code 3.
+[10/27/2020 8:04:40 PM.395] 1 Address: 0x00007FF6DE598B6C
+[10/27/2020 8:04:40 PM.395] Calling func 1
+[10/27/2020 8:04:40 PM.407] 2 Address: 0x00007FF6DF114DFA
+[10/27/2020 8:04:40 PM.407] 3 Address: 0x00007FF6DDB75D46
+[10/27/2020 8:04:40 PM.429] Address: 0x00007FF6DF114DA4
+[10/27/2020 8:04:40 PM.429] Unknown var: 0x00007FF6E013EB70
+[10/27/2020 8:04:40 PM.429] Initialization code 4.
+[10/27/2020 8:04:40 PM.429] Initialization code 5.
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 1
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 2
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 3
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 4
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 5
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 6
+[10/27/2020 8:04:40 PM.429] Completing interoperability, phase 7
+[10/27/2020 8:04:40 PM.429] LoadingScreenMsg: 
+[10/27/2020 8:04:40 PM.680] LoadingScreenMsg: Loading Story Mode
+[10/27/2020 8:04:42 PM.853] LoadingScreenMsg: Loading and Populating Game World
+[10/27/2020 8:04:43 PM.103] LoadingScreenMsg: 
+[10/27/2020 8:04:54 PM.352] Initializing console variable "IsDeveloperModeEnabled".
+[10/27/2020 8:04:54 PM.352] Type: System.Boolean, Reading section: "Miscellaneous", key: IsDeveloperModeEnabled
+[10/27/2020 8:04:54 PM.353] Read value: <null>
+[10/27/2020 8:04:54 PM.353] Initializing console variable "TimeScale".
+[10/27/2020 8:04:54 PM.353] Type: System.Single, Reading section: "Miscellaneous", key: TimeScale
+[10/27/2020 8:04:54 PM.353] Read value: <null>
+[10/27/2020 8:04:54 PM.361] Loading plugin from path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\Plugins\LSPD First Response.dll
+[10/27/2020 8:04:55 PM.682] <UNLOADED PLUGIN>: Initializing input system
+[10/27/2020 8:04:55 PM.683] <UNLOADED PLUGIN>: Initializing game console
+[10/27/2020 8:04:55 PM.684] <UNLOADED PLUGIN>: Initializing forms manager
+[10/27/2020 8:04:55 PM.753] Plugin "LSPD First Response" was loaded from "LSPD First Response.dll".
+[10/27/2020 8:04:55 PM.926] LSPD First Response: [TRACE] Started loading LSPDFR
+[10/27/2020 8:04:55 PM.927] LSPD First Response: [INFO] Running LSPD First Response 0.4.8 (0.4.7575.29892)
+[10/27/2020 8:04:55 PM.927] LSPD First Response: [INFO] Compiled on 27 Sep 2020 14:36:24 UTC
+[10/27/2020 8:04:55 PM.927] LSPD First Response: [INFO] Copyright © 2015-2020, G17 Media, www.lspdfr.com
+[10/27/2020 8:04:58 PM.268] LSPD First Response: [TRACE] Thread CopManager #1 initialized
+[10/27/2020 8:07:55 PM.763] LSPD First Response: [TRACE] Game has stopped loading
+[10/27/2020 8:07:58 PM.349] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:58 PM.352] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:58 PM.353] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/outfits.xml
+[10/27/2020 8:07:58 PM.413] LSPD First Response: [WARN] No name for outfit variation at line 23
+[10/27/2020 8:07:58 PM.413] LSPD First Response: [WARN] No name for outfit variation at line 31
+[10/27/2020 8:07:58 PM.413] LSPD First Response: [WARN] No name for outfit variation at line 39
+[10/27/2020 8:07:58 PM.413] LSPD First Response: [WARN] No name for outfit variation at line 64
+[10/27/2020 8:07:58 PM.413] LSPD First Response: [WARN] No name for outfit variation at line 72
+[10/27/2020 8:07:58 PM.413] LSPD First Response: [WARN] No name for outfit variation at line 80
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 111
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 138
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 174
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 207
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 220
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 259
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 273
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 309
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 323
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 363
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 391
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 425
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 453
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 484
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 502
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 529
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 547
+[10/27/2020 8:07:58 PM.414] LSPD First Response: [WARN] No name for outfit variation at line 581
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] No name for outfit variation at line 615
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] No name for outfit variation at line 650
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] No name for outfit variation at line 677
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] No name for outfit variation at line 711
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] No name for outfit variation at line 741
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:58 PM.415] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/cop_presets_outfits.xml
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 11, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 25
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Officer III+1 at line 25, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 32
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Detective at line 32, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 39
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer at line 39, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 47
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer III+1 at line 47, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 56
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Armored Detective at line 56, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 71, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 85
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Officer III at line 85, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 92
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer at line 92, defaulting to male
+[10/27/2020 8:07:58 PM.416] LSPD First Response: [WARN] No name for outfit variation at line 100
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer III at line 100, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 115, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 129
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer III+1 at line 129, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 136
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Detective at line 136, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 143
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer at line 143, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 151
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer III+1 at line 151, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 160
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Detective at line 160, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 175, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 189
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer III at line 189, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 196
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer at line 196, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 204
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer III at line 204, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 219, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 233
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer III+1 at line 233, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 240
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Detective at line 240, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 247
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer at line 247, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 255
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer III+1 at line 255, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 264
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Detective at line 264, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 279, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 293
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer III at line 293, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 300
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer at line 300, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 308
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Officer III at line 308, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Officer at line 403, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Detective at line 418, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Commander at line 426, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Motor Patrol at line 440, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Motor Patrol at line 461, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Deputy at line 481, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 494
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Deputy at line 494, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Deputy at line 507, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 520
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Deputy at line 520, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Deputy at line 533, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 546
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Armored Deputy at line 546, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No gender specified for outfit variation Deputy at line 559, defaulting to male
+[10/27/2020 8:07:58 PM.417] LSPD First Response: [WARN] No name for outfit variation at line 572
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No gender specified for outfit variation Armored Deputy at line 572, defaulting to male
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No gender specified for outfit variation Deputy at line 585, defaulting to male
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 598
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No gender specified for outfit variation Armored Deputy at line 598, defaulting to male
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No gender specified for outfit variation Deputy at line 611, defaulting to male
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 624
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No gender specified for outfit variation Armored Deputy at line 624, defaulting to male
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 732
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 764
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 796
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 828
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 951
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 976
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1002
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1028
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1054
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1133
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1160
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1187
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1214
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1241
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1268
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1297
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1330
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1363
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [WARN] No name for outfit variation at line 1396
+[10/27/2020 8:07:58 PM.418] LSPD First Response: [TRACE] Loaded 10 freemode outfits and 55 preset outfits
+[10/27/2020 8:07:58 PM.773] LSPD First Response: [TRACE] Adding Ben J. as character
+[10/27/2020 8:07:58 PM.847] LSPD First Response: [TRACE] Adding Michelle Meto as character
+[10/27/2020 8:07:58 PM.848] LSPD First Response: [WARN] Path without extension: lspdfr/chars
+[10/27/2020 8:07:58 PM.848] LSPD First Response: [WARN] Path without extension: lspdfr/chars
+[10/27/2020 8:07:59 PM.009] LSPD First Response: [TRACE] Adding Thyson McGahrem as character
+[10/27/2020 8:07:59 PM.012] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.012] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.012] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/regions.xml
+[10/27/2020 8:07:59 PM.015] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.015] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.015] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/backup.xml
+[10/27/2020 8:07:59 PM.017] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.017] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.017] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/agency.xml
+[10/27/2020 8:07:59 PM.041] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.041] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:07:59 PM.041] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/inventory.xml
+[10/27/2020 8:07:59 PM.047] LSPD First Response: [TRACE] Failed to parse  as chance
+[10/27/2020 8:07:59 PM.050] LSPD First Response: [TRACE] Player was in vehicle: False
+[10/27/2020 8:07:59 PM.050] LSPD First Response: [TRACE] Last selected character was Thyson McGahrem, should spawn as last character True
+[10/27/2020 8:07:59 PM.050] LSPD First Response: [TRACE] Loading last selected character Thyson McGahrem
+[10/27/2020 8:07:59 PM.052] LSPD First Response: [INFO] Changing current player character to Thyson McGahrem
+[10/27/2020 8:07:59 PM.069] LSPD First Response: [TRACE] Thread PedHistoryManager #1 initialized
+[10/27/2020 8:07:59 PM.069] LSPD First Response: [TRACE] Thread PlayerCharacterStatsManager #1 initialized
+[10/27/2020 8:07:59 PM.070] LSPD First Response: [TRACE] Thread GamePlayer #1 initialized
+[10/27/2020 8:07:59 PM.321] LSPD First Response: [TRACE] Cached 1216 decorators for index 3
+[10/27/2020 8:07:59 PM.336] LSPD First Response: [TRACE] CharacterSelected: 11
+[10/27/2020 8:07:59 PM.336] LSPD First Response: [TRACE] Character changed, creating new stats object
+[10/27/2020 8:07:59 PM.534] LSPD First Response: [TRACE] Initialized telemtry service
+[10/27/2020 8:07:59 PM.566] LSPD First Response: We have 3 appartments registered
+[10/27/2020 8:07:59 PM.568] LSPD First Response: [TRACE] Finding Interior ID for 1893 Grapeseed Ave at: X:264.853 Y:-1000.169 Z:-99.058
+[10/27/2020 8:07:59 PM.572] LSPD First Response: [TRACE] Initialised Apartment: 1893 Grapeseed Ave, Interior is 149761
+[10/27/2020 8:07:59 PM.573] LSPD First Response: [TRACE] Finding Interior ID for 0605 Spanish Ave at: X:347.1727 Y:-1001.406 Z:-99.1962
+[10/27/2020 8:07:59 PM.573] LSPD First Response: [TRACE] Initialised Apartment: 0605 Spanish Ave, Interior is 148225
+[10/27/2020 8:07:59 PM.574] LSPD First Response: [TRACE] Finding Interior ID for 2874 Hillcrest at: X:-859.5645 Y:688.7182 Z:152.8571
+[10/27/2020 8:07:59 PM.574] LSPD First Response: [TRACE] Initialised Apartment: 2874 Hillcrest, Interior is 207361
+[10/27/2020 8:07:59 PM.574] LSPD First Response: ApartmentManager initialized
+[10/27/2020 8:07:59 PM.575] LSPD First Response: [TRACE] Started new menu thread MenuBase #1
+[10/27/2020 8:07:59 PM.576] LSPD First Response: [TRACE] Started new menu thread MenuBase #2
+[10/27/2020 8:07:59 PM.623] LSPD First Response: [TRACE] Thread DiscordRichPresence #1 initialized
+[10/27/2020 8:07:59 PM.709] LSPD First Response: [TRACE] Thread CheckpointManager #1 initialized
+[10/27/2020 8:07:59 PM.710] LSPD First Response: [TRACE] Thread ApartmentManager #1 initialized
+[10/27/2020 8:07:59 PM.710] LSPD First Response: [TRACE] Saved apt: 
+[10/27/2020 8:07:59 PM.741] LSPD First Response: [TRACE] Thread Marker #1 initialized
+[10/27/2020 8:07:59 PM.743] LSPD First Response: [TRACE] Thread SpanishAve0605 #1 initialized
+[10/27/2020 8:07:59 PM.744] LSPD First Response: [TRACE] Thread Marker #2 initialized
+[10/27/2020 8:07:59 PM.744] LSPD First Response: [TRACE] Thread Hillcrest2874 #1 initialized
+[10/27/2020 8:07:59 PM.744] LSPD First Response: [TRACE] Thread Marker #3 initialized
+[10/27/2020 8:07:59 PM.744] LSPD First Response: [TRACE] Thread MenuManager #1 initialized
+[10/27/2020 8:07:59 PM.832] LSPD First Response: [TRACE] Thread GrapeseedAve1893 #1 initialized
+[10/27/2020 8:08:00 PM.011] LSPD First Response: [TRACE] Started new menu thread MenuBase #3
+[10/27/2020 8:08:00 PM.015] LSPD First Response: [TRACE] Started new menu thread MenuBase #4
+[10/27/2020 8:08:00 PM.019] LSPD First Response: [TRACE] Set title to Thyson McGahrem for Interaction Menu
+[10/27/2020 8:08:00 PM.019] LSPD First Response: [TRACE] Started new menu thread MenuBase #5
+[10/27/2020 8:08:00 PM.021] LSPD First Response: [TRACE] Set title to Thyson McGahrem for Police Radio
+[10/27/2020 8:08:00 PM.026] LSPD First Response: [TRACE] Started new menu thread MenuBase #6
+[10/27/2020 8:08:00 PM.028] LSPD First Response: [TRACE] Set title to Thyson McGahrem for Vehicle Options
+[10/27/2020 8:08:00 PM.031] LSPD First Response: [TRACE] Started new menu thread MenuBase #7
+[10/27/2020 8:08:00 PM.031] LSPD First Response: [TRACE] Set title to Thyson McGahrem for Inventory
+[10/27/2020 8:08:00 PM.032] LSPD First Response: [TRACE] Started new menu thread MenuBase #8
+[10/27/2020 8:08:00 PM.034] LSPD First Response: [TRACE] Set title to Thyson McGahrem for Settings
+[10/27/2020 8:08:00 PM.036] LSPD First Response: [TRACE] Saved apt: 
+[10/27/2020 8:08:00 PM.074] LSPD First Response: [TRACE] Requested Audio
+[10/27/2020 8:08:00 PM.082] LSPD First Response: [TRACE] Thread CharacterCreation #1 initialized
+[10/27/2020 8:08:00 PM.422] LSPD First Response: [INFO] Connecting to LSPDFR Sync
+[10/27/2020 8:08:00 PM.516] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:08:00 PM.516] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:08:00 PM.516] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/stations.xml
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Vinewood Police Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Vinewood Police Station (LSPD) at X:638.5 Y:1.75 Z:82.8
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] La Mesa Police Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: La Mesa Police Station (LSPD) at X:826.8 Y:-1290 Z:28.24
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Rockford Hills Police Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Rockford Hills Police Station (LSPD) at X:-561.65 Y:-131.65 Z:38.21
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Vespucci Police Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Vespucci Police Station (LSPD) at X:-1108.18 Y:-845.18 Z:19.32
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Downtown Police Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Downtown Police Station (LSPD) at X:450.0654 Y:-993.0596 Z:30
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Davis Sheriff Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Davis Sheriff Station (LSSD) at X:360.97 Y:-1584.7 Z:29.29
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Sandy Shores Sheriff Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Sandy Shores Sheriff Station (LSSD) at X:1848.73 Y:3689.98 Z:34.27
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Paleto Bay Sheriff Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Paleto Bay Sheriff Station (LSSD) at X:-448.22 Y:6008.23 Z:31.72
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Beaver Bush Ranger Station
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Beaver Bush Ranger Station (SAPR) at X:379.31 Y:792.06 Z:190.41
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Los Santos Intl. Airport Field Office
+[10/27/2020 8:08:00 PM.530] LSPD First Response: [INFO] Added new police station: Los Santos Intl. Airport Field Office (NOOSE) at X:-864.61 Y:-2408.92 Z:14.03
+[10/27/2020 8:08:00 PM.531] LSPD First Response: [INFO] Bolingbroke Penitentiary
+[10/27/2020 8:08:00 PM.531] LSPD First Response: [INFO] Added new police station: Bolingbroke Penitentiary (SASPA) at X:1846.49 Y:2585.95 Z:45.67
+[10/27/2020 8:08:00 PM.535] LSPD First Response: [TRACE] Auto started component Debug #1
+[10/27/2020 8:08:00 PM.535] LSPD First Response: [TRACE] Auto started component AmbientBlips #1
+[10/27/2020 8:08:00 PM.536] LSPD First Response: [TRACE] Auto started component AmbientChases #1
+[10/27/2020 8:08:00 PM.536] LSPD First Response: [TRACE] Auto started component AmbientCombatControl #1
+[10/27/2020 8:08:00 PM.536] LSPD First Response: [TRACE] Auto started component AmbientGameStats #1
+[10/27/2020 8:08:00 PM.536] LSPD First Response: [TRACE] Auto started component AmbientOffDuty #1
+[10/27/2020 8:08:00 PM.536] LSPD First Response: [TRACE] Auto started component AmbientPhotoCamera #1
+[10/27/2020 8:08:00 PM.537] LSPD First Response: [TRACE] Auto started component AmbientGameScripts #1
+[10/27/2020 8:08:00 PM.537] LSPD First Response: [TRACE] Auto started component AmbientSpawn #1
+[10/27/2020 8:08:00 PM.537] LSPD First Response: [TRACE] Auto started component AmbientSpawnScenarios #1
+[10/27/2020 8:08:00 PM.538] LSPD First Response: [TRACE] Auto started component GameStatsManager #1
+[10/27/2020 8:08:00 PM.538] LSPD First Response: [TRACE] Auto started component EvidenceMarkerManager #1
+[10/27/2020 8:08:00 PM.539] LSPD First Response: [TRACE] Auto started component GameEventManager #1
+[10/27/2020 8:08:00 PM.542] LSPD First Response: [TRACE] Loading node data
+[10/27/2020 8:08:00 PM.879] LSPD First Response: [TRACE] Terminal server version: 0.2
+[10/27/2020 8:08:00 PM.879] LSPD First Response: [INFO] Connected to LSPDFR Sync via session 0802073c-425e-414e-a651-52e3785ead8f. Enhanced features available.
+[10/27/2020 8:08:00 PM.886] LSPD First Response: [TRACE] Server has requested that we enable feature BaselineTelemetry
+[10/27/2020 8:08:00 PM.887] LSPD First Response: [TRACE] Server has requested that we enable feature LSPDFRSyncOnboarding
+[10/27/2020 8:08:00 PM.887] LSPD First Response: [TRACE] Server has requested that we enable feature PatreonPauseMenuItem
+[10/27/2020 8:08:03 PM.503] LSPD First Response: [TRACE] Done loading node data
+[10/27/2020 8:08:03 PM.503] LSPD First Response: [TRACE] Loading node data
+[10/27/2020 8:08:03 PM.503] LSPD First Response: [TRACE] Done loading node data
+[10/27/2020 8:08:03 PM.504] LSPD First Response: [TRACE] SwitchToCharacter: Thyson McGahrem
+[10/27/2020 8:08:03 PM.504] LSPD First Response: [TRACE] Switch mode is random
+[10/27/2020 8:08:03 PM.506] LSPD First Response: [TRACE] GamePlayer::ChangeCharacter: Same character
+[10/27/2020 8:08:03 PM.506] LSPD First Response: [TRACE] Saved apt: 
+[10/27/2020 8:08:03 PM.507] LSPD First Response: [TRACE] EnterApartmentSpawnTest
+[10/27/2020 8:08:03 PM.509] LSPD First Response: [TRACE] Entered apartment
+[10/27/2020 8:08:03 PM.874] LSPD First Response: [TRACE] Thread AmbientBlips #1 initialized
+[10/27/2020 8:08:03 PM.880] LSPD First Response: [TRACE] Thread AmbientChases #1 initialized
+[10/27/2020 8:08:03 PM.880] LSPD First Response: [TRACE] Disabling ambient game police chases
+[10/27/2020 8:08:03 PM.885] LSPD First Response: [TRACE] Disabled ambient game police chases
+[10/27/2020 8:08:03 PM.886] LSPD First Response: [TRACE] Thread AmbientGameStats #1 initialized
+[10/27/2020 8:08:03 PM.888] LSPD First Response: [TRACE] Thread AmbientOffDuty #1 initialized
+[10/27/2020 8:08:03 PM.890] LSPD First Response: [TRACE] Thread AmbientPhotoCamera #1 initialized
+[10/27/2020 8:08:03 PM.890] LSPD First Response: [TRACE] Thread AmbientGameScripts #1 initialized
+[10/27/2020 8:08:05 PM.031] LSPD First Response: [TRACE] Thread AmbientSpawnScenarios #1 initialized
+[10/27/2020 8:08:05 PM.031] LSPD First Response: [TRACE] Thread GameStatsManager #1 initialized
+[10/27/2020 8:08:06 PM.236] LSPD First Response: [TRACE] Thread PauseMenu #1 initialized
+[10/27/2020 8:08:06 PM.236] LSPD First Response: [TRACE] Thread SamTesting #1 initialized
+[10/27/2020 8:08:06 PM.236] LSPD First Response: [TRACE] Thread CrimeEventManager #1 initialized
+[10/27/2020 8:08:06 PM.236] LSPD First Response: [TRACE] Thread Crime Manager #1 initialized
+[10/27/2020 8:08:06 PM.236] LSPD First Response: [TRACE] Thread ChaseMe #1 initialized
+[10/27/2020 8:08:06 PM.236] LSPD First Response: [TRACE] Thread TrafficStopManager #1 initialized
+[10/27/2020 8:08:06 PM.239] LSPD First Response: [TRACE] Thread PlayerChaseManager #1 initialized
+[10/27/2020 8:08:06 PM.243] LSPD First Response: [TRACE] Thread ScenarioManager #1 initialized
+[10/27/2020 8:08:06 PM.243] LSPD First Response: [TRACE] Thread PlayerDutyController #1 initialized
+[10/27/2020 8:08:06 PM.243] LSPD First Response: [TRACE] Thread PlayerDutyBehaviorController #1 initialized
+[10/27/2020 8:08:06 PM.244] LSPD First Response: [TRACE] Thread PoliceStationManager #1 initialized
+[10/27/2020 8:08:06 PM.257] LSPD First Response: [TRACE] Thread PoliceStationInterior #1 initialized
+[10/27/2020 8:08:06 PM.260] LSPD First Response: [TRACE] Thread Marker #4 initialized
+[10/27/2020 8:08:06 PM.260] LSPD First Response: [TRACE] Thread Debug #1 initialized
+[10/27/2020 8:08:06 PM.263] LSPD First Response: [TRACE] Thread AmbientCombatControl #1 initialized
+[10/27/2020 8:08:06 PM.264] LSPD First Response: [TRACE] Thread AmbientSpawn #1 initialized
+[10/27/2020 8:08:06 PM.267] LSPD First Response: [TRACE] Thread EvidenceMarkerManager #1 initialized
+[10/27/2020 8:08:06 PM.270] LSPD First Response: [TRACE] Thread GameEventManager #1 initialized
+[10/27/2020 8:08:06 PM.524] LSPD First Response: [TRACE] Loaded Apartment: 1893 Grapeseed Ave, Interior is 149761
+[10/27/2020 8:08:06 PM.543] LSPD First Response: [TRACE] Preloading POLICE3
+[10/27/2020 8:08:06 PM.545] LSPD First Response: [TRACE] Created police3 at X:446.3985 Y:-1026.087 Z:28.92508
+[10/27/2020 8:08:06 PM.545] LSPD First Response: [TRACE] AmbientStationSpawn: Added POLICE3 at Downtown Police Station
+[10/27/2020 8:08:06 PM.635] LSPD First Response: [TRACE] Preloading POLICE2
+[10/27/2020 8:08:06 PM.635] LSPD First Response: [TRACE] Created police2 at X:407.7591 Y:-1005.385 Z:28.26613
+[10/27/2020 8:08:06 PM.636] LSPD First Response: [TRACE] AmbientStationSpawn: Added POLICE2 at Downtown Police Station
+[10/27/2020 8:08:06 PM.645] LSPD First Response: [TRACE] Preloading MP_M_FREEMODE_01
+[10/27/2020 8:08:06 PM.649] LSPD First Response: [TRACE] New ped created mp_m_freemode_01 (PedType: 6), Agency: Custom ()
+[10/27/2020 8:08:06 PM.967] LSPD First Response: [TRACE] Ryan Burbickk (MP_M_FREEMODE_01) was set as a cop
+[10/27/2020 8:08:06 PM.972] LSPD First Response: [TRACE] Assigned ped to PoliceStation #5 (Ambient)
+[10/27/2020 8:08:06 PM.979] LSPD First Response: [TRACE] Preloading MP_M_FREEMODE_01
+[10/27/2020 8:08:06 PM.983] LSPD First Response: [TRACE] New ped created mp_m_freemode_01 (PedType: 6), Agency: Custom ()
+[10/27/2020 8:08:07 PM.082] LSPD First Response: [TRACE] Andrew Felose (MP_M_FREEMODE_01) was set as a cop
+[10/27/2020 8:08:07 PM.082] LSPD First Response: [TRACE] Assigned ped to PoliceStation #5 (Ambient)
+[10/27/2020 8:08:07 PM.606] LSPD First Response: [TRACE] Bed: Prop Constructor Started
+[10/27/2020 8:08:07 PM.606] LSPD First Response: [TRACE] Bed: Prop Constructor Finished
+[10/27/2020 8:08:07 PM.608] LSPD First Response: [TRACE] Shower: Prop Constructor Started
+[10/27/2020 8:08:07 PM.608] LSPD First Response: [TRACE] Shower: Prop Constructor Finished
+[10/27/2020 8:08:07 PM.608] LSPD First Response: [TRACE] Wardrobe: Prop Constructor Started
+[10/27/2020 8:08:07 PM.608] LSPD First Response: [TRACE] Wardrobe: Prop Constructor Finished
+[10/27/2020 8:08:07 PM.609] LSPD First Response: [TRACE] Juice: Prop Constructor Started
+[10/27/2020 8:08:07 PM.609] LSPD First Response: [TRACE] Juice: Prop Constructor Finished
+[10/27/2020 8:08:07 PM.614] LSPD First Response: [TRACE] Chair: Prop Constructor Started
+[10/27/2020 8:08:07 PM.614] LSPD First Response: [TRACE] Chair: Prop Constructor Finished
+[10/27/2020 8:08:07 PM.615] LSPD First Response: [TRACE] Radio: Prop Constructor Started
+[10/27/2020 8:08:07 PM.615] LSPD First Response: [TRACE] Radio: Prop Constructor Finished
+[10/27/2020 8:08:07 PM.615] LSPD First Response: [TRACE] Successfully loaded interior for: 1893 Grapeseed Ave
+[10/27/2020 8:08:07 PM.634] LSPD First Response: [TRACE] Thread ApartmentProp #1 initialized
+[10/27/2020 8:08:07 PM.640] LSPD First Response: [TRACE] Thread ApartmentProp #2 initialized
+[10/27/2020 8:08:07 PM.641] LSPD First Response: [TRACE] Thread ApartmentProp #3 initialized
+[10/27/2020 8:08:07 PM.641] LSPD First Response: [TRACE] Started new menu thread MenuBase #9
+[10/27/2020 8:08:07 PM.645] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:08:07 PM.656] LSPD First Response: [TRACE] Thread ApartmentTV #1 initialized
+[10/27/2020 8:08:07 PM.660] LSPD First Response: [TRACE] Thread ApartmentProp #6 initialized
+[10/27/2020 8:08:07 PM.660] LSPD First Response: [TRACE] Set scenepoint for radio based on prop_boombox_01
+[10/27/2020 8:08:07 PM.660] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:08:07 PM.729] LSPD First Response: [TRACE] Thread ApartmentProp #4 initialized
+[10/27/2020 8:08:08 PM.268] LSPD First Response: [TRACE] Thread ApartmentProp #5 initialized
+[10/27/2020 8:08:08 PM.632] LSPD First Response: [TRACE] Starting player switch
+[10/27/2020 8:08:11 PM.110] LSPD First Response: [TRACE] Reset shower positions
+[10/27/2020 8:08:11 PM.259] LSPD First Response: [TRACE] Preloading POLICE3
+[10/27/2020 8:08:11 PM.261] LSPD First Response: [TRACE] Preloading POLICE3
+[10/27/2020 8:08:11 PM.261] LSPD First Response: [TRACE] Created police3 at X:137.827 Y:-1016.266 Z:29.99737
+[10/27/2020 8:08:11 PM.318] LSPD First Response: [TRACE] Player switch done
+[10/27/2020 8:08:11 PM.400] LSPD First Response: [TRACE] Preloading MP_F_FREEMODE_01
+[10/27/2020 8:08:11 PM.404] LSPD First Response: [TRACE] New ped created mp_f_freemode_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:08:11 PM.413] LSPD First Response: [TRACE] Kim Richardson (MP_F_FREEMODE_01) was set as a cop
+[10/27/2020 8:08:11 PM.483] LSPD First Response: [TRACE] Preloading MP_F_FREEMODE_01
+[10/27/2020 8:08:11 PM.487] LSPD First Response: [TRACE] New ped created mp_f_freemode_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:08:11 PM.505] LSPD First Response: [TRACE] Cached 1227 decorators for index 4
+[10/27/2020 8:08:11 PM.509] LSPD First Response: [TRACE] Penny Sersevic (MP_F_FREEMODE_01) was set as a cop
+[10/27/2020 8:08:11 PM.511] LSPD First Response: [TRACE] AmbientSpawn - spawned: police3
+[10/27/2020 8:08:15 PM.757] LSPD First Response: [TRACE] Hiding help for: Shower
+[10/27/2020 8:08:21 PM.334] LSPD First Response: [TRACE] Hiding help for: Shower
+[10/27/2020 8:08:30 PM.629] LSPD First Response: [TRACE] Reset shower positions
+[10/27/2020 8:08:32 PM.544] LSPD First Response: [TRACE] Hiding help for: Shower
+[10/27/2020 8:08:44 PM.810] LSPD First Response: [TRACE] Unloading Apartment Interior: 1893 Grapeseed Ave
+[10/27/2020 8:08:44 PM.813] LSPD First Response: [TRACE] Asked thread ApartmentTV #1 to abort: No reason specified
+[10/27/2020 8:08:44 PM.816] LSPD First Response: [TRACE] Released 0 entities from ApartmentTV #1 Content Manager
+[10/27/2020 8:08:44 PM.816] LSPD First Response: [TRACE] Instance cleaned (ApartmentTV #1)
+[10/27/2020 8:08:44 PM.823] LSPD First Response: [TRACE] Asked thread ApartmentProp #2 to abort: No reason specified
+[10/27/2020 8:08:44 PM.824] LSPD First Response: [TRACE] Reset shower positions
+[10/27/2020 8:08:44 PM.824] LSPD First Response: [TRACE] Reset shower positions
+[10/27/2020 8:08:44 PM.826] LSPD First Response: [TRACE] Ended Shower
+[10/27/2020 8:08:44 PM.826] LSPD First Response: [TRACE] Released 0 entities from ApartmentProp #2 Content Manager
+[10/27/2020 8:08:44 PM.826] LSPD First Response: [TRACE] Instance cleaned (ApartmentProp #2)
+[10/27/2020 8:08:44 PM.826] LSPD First Response: [TRACE] Asked thread ApartmentProp #3 to abort: No reason specified
+[10/27/2020 8:08:44 PM.828] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:08:44 PM.829] LSPD First Response: [TRACE] Released 0 entities from ApartmentProp #3 Content Manager
+[10/27/2020 8:08:44 PM.829] LSPD First Response: [TRACE] Instance cleaned (ApartmentProp #3)
+[10/27/2020 8:08:44 PM.829] LSPD First Response: [TRACE] Asked thread ApartmentProp #1 to abort: No reason specified
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Ended Bed
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Released 0 entities from ApartmentProp #1 Content Manager
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Instance cleaned (ApartmentProp #1)
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Asked thread ApartmentProp #4 to abort: No reason specified
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Released 0 entities from ApartmentProp #4 Content Manager
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Instance cleaned (ApartmentProp #4)
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Ended Green Juice
+[10/27/2020 8:08:44 PM.830] LSPD First Response: [TRACE] Asked thread ApartmentProp #5 to abort: No reason specified
+[10/27/2020 8:08:44 PM.831] LSPD First Response: [TRACE] Ended Chair
+[10/27/2020 8:08:44 PM.831] LSPD First Response: [TRACE] Released 0 entities from ApartmentProp #5 Content Manager
+[10/27/2020 8:08:44 PM.831] LSPD First Response: [TRACE] Instance cleaned (ApartmentProp #5)
+[10/27/2020 8:08:44 PM.831] LSPD First Response: [TRACE] Asked thread ApartmentProp #6 to abort: No reason specified
+[10/27/2020 8:08:44 PM.832] LSPD First Response: [TRACE] Ended Radio
+[10/27/2020 8:08:44 PM.832] LSPD First Response: [TRACE] Released 0 entities from ApartmentProp #6 Content Manager
+[10/27/2020 8:08:44 PM.832] LSPD First Response: [TRACE] Instance cleaned (ApartmentProp #6)
+[10/27/2020 8:08:44 PM.832] LSPD First Response: [TRACE] Successfully unloaded: 1893 Grapeseed Ave
+[10/27/2020 8:08:45 PM.228] LSPD First Response: [TRACE] Removing ped from PoliceStation #5 (Ambient)
+[10/27/2020 8:08:45 PM.230] LSPD First Response: [TRACE] Removing ped from PoliceStation #5 (Ambient)
+[10/27/2020 8:08:45 PM.230] LSPD First Response: [TRACE] Released 0 entities from PoliceStation #5 Content Manager
+[10/27/2020 8:08:45 PM.230] LSPD First Response: [TRACE] Instance cleaned (PoliceStation #5)
+[10/27/2020 8:08:45 PM.230] LSPD First Response: [TRACE] Thread ApartmentProp #1 has been shut down
+[10/27/2020 8:08:45 PM.231] LSPD First Response: [TRACE] Thread ApartmentProp #2 has been shut down
+[10/27/2020 8:08:45 PM.231] LSPD First Response: [TRACE] Thread ApartmentProp #3 has been shut down
+[10/27/2020 8:08:45 PM.231] LSPD First Response: [TRACE] Thread ApartmentProp #4 has been shut down
+[10/27/2020 8:08:45 PM.231] LSPD First Response: [TRACE] Thread ApartmentTV #1 has been shut down
+[10/27/2020 8:08:45 PM.231] LSPD First Response: [TRACE] Thread ApartmentProp #5 has been shut down
+[10/27/2020 8:08:45 PM.231] LSPD First Response: [TRACE] Thread ApartmentProp #6 has been shut down
+[10/27/2020 8:08:45 PM.334] LSPD First Response: [TRACE] Ped Ryan Burbickk has become idle again
+[10/27/2020 8:08:45 PM.334] LSPD First Response: [TRACE] Ped Andrew Felose has become idle again
+[10/27/2020 8:08:53 PM.212] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:08:53 PM.212] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:08:53 PM.311] LSPD First Response: [TRACE] Created sheriff at X:1667.724 Y:4925.842 Z:42.60307
+[10/27/2020 8:08:53 PM.352] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:08:53 PM.352] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:08:53 PM.354] LSPD First Response: [TRACE] Ronald Whitefield (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:08:53 PM.355] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:08:53 PM.355] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:08:53 PM.356] LSPD First Response: [TRACE] John Venaducci (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:08:53 PM.356] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:09:27 PM.126] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:09:27 PM.126] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:09:27 PM.127] LSPD First Response: [TRACE] Created sheriff at X:1698.154 Y:4669.837 Z:44.0387
+[10/27/2020 8:09:27 PM.127] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:09:27 PM.128] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:09:27 PM.128] LSPD First Response: [TRACE] Leo Rider (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:09:27 PM.129] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:09:27 PM.129] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:09:27 PM.130] LSPD First Response: [TRACE] Josh Sandman (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:09:27 PM.130] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:09:38 PM.464] LSPD First Response: [TRACE] Thyson McGahrem (MP_M_FREEMODE_01) was damaged.
+[10/27/2020 8:09:42 PM.157] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:09:42 PM.158] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:09:42 PM.158] LSPD First Response: [TRACE] Created sheriff at X:2203.578 Y:4860.653 Z:45.52362
+[10/27/2020 8:09:42 PM.158] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:09:42 PM.159] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:09:42 PM.160] LSPD First Response: [TRACE] Chris Romero (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:09:42 PM.160] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:09:57 PM.186] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:09:57 PM.186] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:09:57 PM.186] LSPD First Response: [TRACE] Created sheriff at X:2197.327 Y:4850.719 Z:45.59165
+[10/27/2020 8:09:57 PM.187] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:09:57 PM.187] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:09:57 PM.188] LSPD First Response: [TRACE] John McConnell (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:09:57 PM.188] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:09:57 PM.189] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:09:57 PM.287] LSPD First Response: [TRACE] Donnie Darko (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:09:57 PM.288] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:10:27 PM.282] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:10:27 PM.283] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:10:27 PM.283] LSPD First Response: [TRACE] Created sheriff at X:2472.614 Y:4371.281 Z:36.9483
+[10/27/2020 8:10:27 PM.283] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:10:27 PM.284] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:10:27 PM.284] LSPD First Response: [TRACE] Leo Kray (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:10:27 PM.285] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:10:27 PM.285] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:10:27 PM.286] LSPD First Response: [TRACE] Danny Jackson (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:10:27 PM.286] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:10:37 PM.302] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:10:37 PM.302] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:10:37 PM.303] LSPD First Response: [TRACE] Created sheriff at X:2470.078 Y:4178.63 Z:38.01576
+[10/27/2020 8:10:37 PM.303] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:10:37 PM.304] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:10:37 PM.304] LSPD First Response: [TRACE] Dave Mustaine (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:10:37 PM.305] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:10:37 PM.305] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:10:37 PM.306] LSPD First Response: [TRACE] John McGimley (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:10:37 PM.306] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:11:12 PM.375] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:12 PM.376] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:12 PM.376] LSPD First Response: [TRACE] Created sheriff at X:2086.787 Y:3737.117 Z:33.56568
+[10/27/2020 8:11:12 PM.376] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:11:17 PM.387] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:17 PM.387] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:17 PM.387] LSPD First Response: [TRACE] Created sheriff at X:2061.102 Y:3722.875 Z:33.74131
+[10/27/2020 8:11:17 PM.387] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:11:22 PM.399] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:22 PM.399] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:22 PM.400] LSPD First Response: [TRACE] Created sheriff at X:2101.573 Y:3740.894 Z:33.55771
+[10/27/2020 8:11:22 PM.400] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:11:27 PM.404] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:27 PM.405] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:27 PM.405] LSPD First Response: [TRACE] Created sheriff at X:2142.09 Y:3763.353 Z:33.74585
+[10/27/2020 8:11:27 PM.405] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:11:27 PM.406] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:11:27 PM.406] LSPD First Response: [TRACE] Nicholas Angel (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:11:27 PM.407] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:11:27 PM.407] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:11:27 PM.408] LSPD First Response: [TRACE] Alex Polonsky (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:11:27 PM.408] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:11:52 PM.463] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:52 PM.464] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:11:52 PM.464] LSPD First Response: [TRACE] Created sheriff at X:2300.838 Y:3854.291 Z:35.22638
+[10/27/2020 8:11:52 PM.565] LSPD First Response: [TRACE] Preloading S_F_Y_SHERIFF_01
+[10/27/2020 8:11:52 PM.566] LSPD First Response: [TRACE] New ped created s_f_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:11:52 PM.566] LSPD First Response: [TRACE] Alice West (S_F_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:11:52 PM.566] LSPD First Response: [TRACE] Preloading S_F_Y_SHERIFF_01
+[10/27/2020 8:11:52 PM.567] LSPD First Response: [TRACE] New ped created s_f_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:11:52 PM.568] LSPD First Response: [TRACE] Crystal Williams (S_F_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:11:52 PM.568] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:07 PM.482] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:07 PM.483] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:07 PM.483] LSPD First Response: [TRACE] Created sheriff at X:2223.183 Y:3810.507 Z:34.40695
+[10/27/2020 8:12:07 PM.483] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:12:07 PM.484] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:12:07 PM.484] LSPD First Response: [TRACE] Justin Cunningham (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:12:07 PM.485] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:12 PM.497] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:12 PM.497] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:12 PM.498] LSPD First Response: [TRACE] Created sheriff at X:2149.585 Y:3507.209 Z:45.87889
+[10/27/2020 8:12:12 PM.498] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:12:12 PM.498] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:12:12 PM.499] LSPD First Response: [TRACE] Benjamin Drutman (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:12:12 PM.499] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:17 PM.508] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:17 PM.509] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:17 PM.509] LSPD First Response: [TRACE] Created sheriff at X:1986.938 Y:3679.731 Z:34.07895
+[10/27/2020 8:12:17 PM.509] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:22 PM.522] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:12:22 PM.522] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:12:22 PM.655] LSPD First Response: [TRACE] Created policeb at X:2034.881 Y:3702.135 Z:33.66453
+[10/27/2020 8:12:22 PM.655] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:12:27 PM.525] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:27 PM.525] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:27 PM.525] LSPD First Response: [TRACE] Created sheriff at X:2214.767 Y:3242.645 Z:48.64257
+[10/27/2020 8:12:27 PM.525] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:32 PM.547] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:32 PM.547] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:32 PM.547] LSPD First Response: [TRACE] Created sheriff at X:2095.972 Y:3272.21 Z:46.63338
+[10/27/2020 8:12:32 PM.547] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:47 PM.585] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:47 PM.585] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:47 PM.585] LSPD First Response: [TRACE] Created sheriff at X:2045.448 Y:3302.923 Z:46.28388
+[10/27/2020 8:12:47 PM.585] LSPD First Response: [TRACE] Preloading S_M_Y_SHERIFF_01
+[10/27/2020 8:12:47 PM.586] LSPD First Response: [TRACE] New ped created s_m_y_sheriff_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:12:47 PM.587] LSPD First Response: [TRACE] Duncan Winn (S_M_Y_SHERIFF_01) was set as a cop
+[10/27/2020 8:12:47 PM.587] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:52 PM.591] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:52 PM.591] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:12:52 PM.591] LSPD First Response: [TRACE] Created sheriff at X:2244.449 Y:3012.161 Z:45.62084
+[10/27/2020 8:12:52 PM.591] LSPD First Response: [TRACE] AmbientSpawn - spawned: sheriff
+[10/27/2020 8:12:57 PM.610] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:12:57 PM.610] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:12:57 PM.610] LSPD First Response: [TRACE] Created policeb at X:2482.418 Y:3012.729 Z:42.88888
+[10/27/2020 8:12:57 PM.610] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:02 PM.632] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:02 PM.632] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:02 PM.633] LSPD First Response: [TRACE] Created policeb at X:2246.266 Y:3225.743 Z:48.92229
+[10/27/2020 8:13:02 PM.633] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:13:02 PM.633] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:13:02 PM.634] LSPD First Response: [TRACE] Jimmy Norman (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:13:02 PM.634] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:07 PM.637] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:07 PM.637] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:07 PM.638] LSPD First Response: [TRACE] Created policeb at X:2096.023 Y:3273.191 Z:46.412
+[10/27/2020 8:13:07 PM.638] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:13:07 PM.638] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:13:07 PM.639] LSPD First Response: [TRACE] Hink Hall (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:13:07 PM.639] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:17 PM.652] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:17 PM.652] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:17 PM.652] LSPD First Response: [TRACE] Created policeb at X:2173.189 Y:2711.624 Z:48.5303
+[10/27/2020 8:13:17 PM.652] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:28 PM.713] LSPD First Response: [TRACE] New cop added without cop data!
+[10/27/2020 8:13:28 PM.713] LSPD First Response: [TRACE] Drake Harper (S_M_Y_COP_01) was set as a cop
+[10/27/2020 8:13:32 PM.674] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:32 PM.674] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:32 PM.674] LSPD First Response: [TRACE] Created policeb at X:1887.919 Y:2422.086 Z:55.2938
+[10/27/2020 8:13:32 PM.674] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:37 PM.687] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:37 PM.687] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:37 PM.687] LSPD First Response: [TRACE] Created policeb at X:1913.04 Y:2462.462 Z:55.01712
+[10/27/2020 8:13:37 PM.687] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:13:37 PM.688] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:13:37 PM.688] LSPD First Response: [TRACE] Jack Cole (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:13:37 PM.689] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:48 PM.101] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:48 PM.101] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:48 PM.101] LSPD First Response: [TRACE] Created policeb at X:353.5824 Y:-1185.272 Z:39.51625
+[10/27/2020 8:13:48 PM.101] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:13:48 PM.102] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:13:48 PM.103] LSPD First Response: [TRACE] Lars Williams (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:13:48 PM.103] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:54 PM.311] LSPD First Response: [TRACE] Started new menu thread MenuBase #10
+[10/27/2020 8:13:54 PM.311] LSPD First Response: [TRACE] Started new menu thread MenuBase #11
+[10/27/2020 8:13:54 PM.314] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:13:54 PM.314] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:13:54 PM.314] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/duty_selection.xml
+[10/27/2020 8:13:54 PM.320] LSPD First Response: [TRACE] Started new menu thread MenuBase #12
+[10/27/2020 8:13:54 PM.321] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:13:54 PM.356] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:13:58 PM.111] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:58 PM.111] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:13:58 PM.111] LSPD First Response: [TRACE] Created policeb at X:554.9847 Y:-1176.122 Z:42.72152
+[10/27/2020 8:13:58 PM.111] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:13:58 PM.112] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:13:58 PM.113] LSPD First Response: [TRACE] James Sin (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:13:58 PM.113] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:13:59 PM.979] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:13:59 PM.979] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:13:59 PM.979] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/duty_selection.xml
+[10/27/2020 8:13:59 PM.986] LSPD First Response: [TRACE] Setting player to lspd from last agency
+[10/27/2020 8:14:00 PM.003] LSPD First Response: [TRACE] Thread AgencySelector #1 initialized
+[10/27/2020 8:14:00 PM.060] LSPD First Response: [TRACE] Player went on duty.
+[10/27/2020 8:14:00 PM.066] LSPD First Response: Folder is C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\plugins\lspdfr
+[10/27/2020 8:14:01 PM.410] LSPD First Response: CompuLite, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+[10/27/2020 8:14:01 PM.417] LSPD First Response: Megaphone UI, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+[10/27/2020 8:14:01 PM.421] LSPD First Response: StopThePed, Version=4.9.3.1, Culture=neutral, PublicKeyToken=null
+[10/27/2020 8:14:01 PM.424] LSPD First Response: UltimateBackup, Version=1.8.4.2, Culture=neutral, PublicKeyToken=null
+[10/27/2020 8:14:01 PM.427] LSPD First Response: Creating plugin: ⁯⁮‬‭‫‭⁫‭‍⁬‎⁪⁭⁪⁫⁬‮⁭‬‫⁭‎⁭​⁫‭⁭​⁯‌‏⁫‌⁭‌⁮​⁬‎‪‮
+[10/27/2020 8:14:01 PM.508] LSPD First Response: Creating plugin: Megaphone_UI.Megaphone
+[10/27/2020 8:14:01 PM.509] LSPD First Response: Creating plugin: ‎​‎‏⁪‫⁭⁫⁪‍⁫⁪⁮‫‏‬‏‮‪⁫⁫‌‬‌‎‬‎⁪‪‭‌​‏‫‌⁫⁫⁯‭‌‮
+[10/27/2020 8:14:01 PM.601] LSPD First Response: Creating plugin: ‍⁪‍‫⁯⁫‌⁬‭‪‌⁪⁮‌⁪‮⁭‮‮⁮⁪‎⁯⁪⁭‬⁯‌⁫‫⁫⁫⁫​‭‮⁪‎⁮‌‮
+[10/27/2020 8:14:01 PM.642] LSPD First Response: Plugin CompuLite v1.5.1.0 has been initialized.
+[10/27/2020 8:14:01 PM.642] LSPD First Response: Go on duty to fully load CompuLite
+[10/27/2020 8:14:01 PM.643] LSPD First Response: Megaphone UI by Vincentsgm29 2.2.0 has been initialised.
+[10/27/2020 8:14:01 PM.643] LSPD First Response: Go on duty to fully load Megaphone UI.
+[10/27/2020 8:14:01 PM.643] LSPD First Response: Plugin StopThePed v4.9.3.1 has been initialized.
+[10/27/2020 8:14:01 PM.643] LSPD First Response: Go on duty to fully load StopThePed
+[10/27/2020 8:14:01 PM.644] LSPD First Response: Plugin UltimateBackup v1.8.4.2 has been initialized.
+[10/27/2020 8:14:01 PM.645] LSPD First Response: Go on duty to fully load UltimateBackup
+[10/27/2020 8:14:01 PM.645] LSPD First Response: We have 2 callouts registered
+[10/27/2020 8:14:01 PM.645] LSPD First Response: CalloutManager initialized
+[10/27/2020 8:14:01 PM.645] LSPD First Response: [TRACE] WorldEventManager: Allowing up to 1 events
+[10/27/2020 8:14:01 PM.651] LSPD First Response: [TRACE] Created new evidence: CrimeEvidenceInPedPossession
+[10/27/2020 8:14:01 PM.652] LSPD First Response: [TRACE] Created new evidence: CrimeEvidenceInPedPossession
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [INFO] Model preloading enabled
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICE
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICE2
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICE3
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICET
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading SHERIFF2
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading SHERIFF
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICE4
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading FBI2
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICEOLD1
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLICEOLD2
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading BUZZARD
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading POLMAV
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading FROGGER2
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading AMBULANCE
+[10/27/2020 8:14:01 PM.656] LSPD First Response: [TRACE] Preloading FIRETRUK
+[10/27/2020 8:14:01 PM.657] LSPD First Response: [TRACE] Preloading asset 1B06D571
+[10/27/2020 8:14:01 PM.657] LSPD First Response: [TRACE] Preloading asset 1D073A89
+[10/27/2020 8:14:01 PM.657] LSPD First Response: [TRACE] Preloading asset 60EC506
+[10/27/2020 8:14:01 PM.657] LSPD First Response: [TRACE] Preloading asset 678B81B1
+[10/27/2020 8:14:01 PM.657] LSPD First Response: [TRACE] Preloading asset 3656C8C1
+[10/27/2020 8:14:01 PM.657] LSPD First Response: [TRACE] Preloading asset 83BF0278
+[10/27/2020 8:14:01 PM.661] LSPD First Response: [TRACE] Auto started component PersonaSearch #1
+[10/27/2020 8:14:01 PM.662] LSPD First Response: [TRACE] Auto started component StudyStatistics #1
+[10/27/2020 8:14:01 PM.670] LSPD First Response: [TRACE] LifeCycleStage HomeOutside Start: 07:30:00 End: 00:00:00 does not have an end time defined, set to 08:00:00
+[10/27/2020 8:14:01 PM.670] LSPD First Response: [TRACE] LifeCycleStage GoingToWork Start: 08:00:00 End: 00:00:00 does not have an end time defined, set to 09:00:00
+[10/27/2020 8:14:01 PM.670] LSPD First Response: [TRACE] LifeCycleStage GoingHome Start: 13:00:00 End: 00:00:00 does not have an end time defined, set to 14:00:00
+[10/27/2020 8:14:01 PM.670] LSPD First Response: [TRACE] LifeCycleStage HomeInside Start: 14:00:00 End: 00:00:00 does not have an end time defined, set to 07:30:00
+[10/27/2020 8:14:01 PM.674] LSPD First Response: [TRACE] Auto started component PersistentCharacterManager #1
+[10/27/2020 8:14:01 PM.676] LSPD First Response: [TRACE] Auto started component AmbientBehaviorPedOnStreet #1
+[10/27/2020 8:14:01 PM.676] LSPD First Response: [TRACE] Auto started component AmbientBehaviorShotsFired #1
+[10/27/2020 8:14:01 PM.676] LSPD First Response: [TRACE] Auto started component AmbientTrafficStop #1
+[10/27/2020 8:14:01 PM.693] LSPD First Response: Deserialized Ceez Johnsonn
+[10/27/2020 8:14:01 PM.693] LSPD First Response: Deserialized Cullen Nicholson
+[10/27/2020 8:14:01 PM.902] LSPD First Response: Megaphone UI 2.2.0 has started
+[10/27/2020 8:14:06 PM.494] LSPD First Response: [TRACE] Thread AmbientTrafficStop #1 initialized
+[10/27/2020 8:14:06 PM.494] LSPD First Response: [TRACE] Thread AmbientBehaviorShotsFired #1 initialized
+[10/27/2020 8:14:06 PM.494] LSPD First Response: [TRACE] Thread AmbientBehaviorPedOnStreet #1 initialized
+[10/27/2020 8:14:06 PM.494] LSPD First Response: [TRACE] Thread PersonaSearch #1 initialized
+[10/27/2020 8:14:06 PM.499] LSPD First Response: [TRACE] Thread Ambient #1 initialized
+[10/27/2020 8:14:06 PM.508] LSPD First Response: [TRACE] Thread ArrestManager #1 initialized
+[10/27/2020 8:14:06 PM.509] LSPD First Response: [TRACE] Thread SuspectTransportManager #1 initialized
+[10/27/2020 8:14:06 PM.513] LSPD First Response: [TRACE] Thread WorldEventManager #1 initialized
+[10/27/2020 8:14:06 PM.518] LSPD First Response: [TRACE] Thread BoundlessInformant #1 initialized
+[10/27/2020 8:14:06 PM.520] LSPD First Response: [TRACE] Thread PlayerSuspectTransportManager #1 initialized
+[10/27/2020 8:14:06 PM.526] LSPD First Response: [TRACE] Thread StudyStatistics #1 initialized
+[10/27/2020 8:14:06 PM.526] LSPD First Response: [TRACE] Thread PersistentCharacterManager #1 initialized
+[10/27/2020 8:14:06 PM.563] LSPD First Response: [MEGAPHONE UI] Menu initialisation ended
+[10/27/2020 8:14:06 PM.583] LSPD First Response: [TRACE] Thread CrimesMenu #1 initialized
+[10/27/2020 8:14:07 PM.181] LSPD First Response: UB: DEFAULT REGIONS FILE IS SUCCESSFULLY LOADED
+[10/27/2020 8:14:07 PM.182] LSPD First Response: UB: CUSTOM REGIONS FILE IS SUCCESSFULLY LOADED
+[10/27/2020 8:14:07 PM.186] LSPD First Response: UB: SPECIAL UNITS FILE IS SUCCESSFULLY LOADED
+[10/27/2020 8:14:08 PM.982] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:09 PM.441] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:09 PM.691] LSPD First Response: CompuLite: Citations.xml has been successfully loaded
+[10/27/2020 8:14:09 PM.705] LSPD First Response: CompuLite: Charges.xml has been successfully loaded
+[10/27/2020 8:14:09 PM.961] LSPD First Response: [TRACE] Thread VehicleSelector #1 initialized
+[10/27/2020 8:14:11 PM.863] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:14:11 PM.863] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:14:11 PM.864] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/duty_selection.xml
+[10/27/2020 8:14:11 PM.865] LSPD First Response: [TRACE] Started new menu thread MenuBase #13
+[10/27/2020 8:14:11 PM.866] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:14:11 PM.866] LSPD First Response: [WARN] Path without extension: lspdfr/data/custom
+[10/27/2020 8:14:11 PM.867] LSPD First Response: [TRACE] ExpandableFileParser::Parse: Reading content from file:lspdfr/data/duty_selection.xml
+[10/27/2020 8:14:11 PM.904] LSPD First Response: [TRACE] POLICE livery 0 name: NULL ()
+[10/27/2020 8:14:11 PM.904] LSPD First Response: [TRACE] POLICE livery 1 name: NULL ()
+[10/27/2020 8:14:11 PM.904] LSPD First Response: [TRACE] POLICE livery 2 name: NULL ()
+[10/27/2020 8:14:11 PM.905] LSPD First Response: [TRACE] POLICE livery 3 name: NULL ()
+[10/27/2020 8:14:11 PM.907] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:11 PM.907] LSPD First Response: [TRACE] POLICE livery 0 name: NULL ()
+[10/27/2020 8:14:11 PM.907] LSPD First Response: [TRACE] POLICE livery 1 name: NULL ()
+[10/27/2020 8:14:11 PM.908] LSPD First Response: [TRACE] POLICE livery 2 name: NULL ()
+[10/27/2020 8:14:11 PM.908] LSPD First Response: [TRACE] POLICE livery 3 name: NULL ()
+[10/27/2020 8:14:11 PM.910] LSPD First Response: [TRACE] POLICE livery 0 name: NULL ()
+[10/27/2020 8:14:11 PM.910] LSPD First Response: [TRACE] POLICE livery 1 name: NULL ()
+[10/27/2020 8:14:11 PM.910] LSPD First Response: [TRACE] POLICE livery 2 name: NULL ()
+[10/27/2020 8:14:11 PM.910] LSPD First Response: [TRACE] POLICE livery 3 name: NULL ()
+[10/27/2020 8:14:11 PM.911] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:11 PM.911] LSPD First Response: [TRACE] POLICE livery 0 name: NULL ()
+[10/27/2020 8:14:11 PM.911] LSPD First Response: [TRACE] POLICE livery 1 name: NULL ()
+[10/27/2020 8:14:11 PM.911] LSPD First Response: [TRACE] POLICE livery 2 name: NULL ()
+[10/27/2020 8:14:11 PM.911] LSPD First Response: [TRACE] POLICE livery 3 name: NULL ()
+[10/27/2020 8:14:11 PM.949] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:12 PM.573] LSPD First Response: [TRACE] New cop added without cop data!
+[10/27/2020 8:14:12 PM.576] LSPD First Response: [TRACE] Jose Maria (S_M_Y_COP_01) was set as a cop
+[10/27/2020 8:14:12 PM.576] LSPD First Response: [TRACE] New cop added without cop data!
+[10/27/2020 8:14:12 PM.576] LSPD First Response: [TRACE] Jimmy Rubins (S_M_Y_COP_01) was set as a cop
+[10/27/2020 8:14:14 PM.683] LSPD First Response: [TRACE] Preloading POLICE2
+[10/27/2020 8:14:14 PM.683] LSPD First Response: [TRACE] Preloading POLICE2
+[10/27/2020 8:14:14 PM.683] LSPD First Response: [TRACE] Created police2 at X:354.4647 Y:-1042.979 Z:30.01716
+[10/27/2020 8:14:14 PM.683] LSPD First Response: [TRACE] Preloading MP_M_FREEMODE_01
+[10/27/2020 8:14:14 PM.687] LSPD First Response: [TRACE] New ped created mp_m_freemode_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:14:14 PM.691] LSPD First Response: [TRACE] Barry Wakenbake (MP_M_FREEMODE_01) was set as a cop
+[10/27/2020 8:14:14 PM.692] LSPD First Response: [TRACE] Preloading MP_M_FREEMODE_01
+[10/27/2020 8:14:14 PM.695] LSPD First Response: [TRACE] New ped created mp_m_freemode_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:14:14 PM.700] LSPD First Response: [TRACE] Ralph Bucardo (MP_M_FREEMODE_01) was set as a cop
+[10/27/2020 8:14:14 PM.700] LSPD First Response: [TRACE] AmbientSpawn - spawned: police2
+[10/27/2020 8:14:16 PM.309] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:16 PM.501] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:17 PM.075] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:22 PM.036] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:22 PM.036] LSPD First Response: [TRACE] Released 0 entities from MenuBase #13 Content Manager
+[10/27/2020 8:14:22 PM.036] LSPD First Response: [TRACE] Instance cleaned (MenuBase #13)
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Updating scaleform
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Released 0 entities from MenuBase #10 Content Manager
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Instance cleaned (MenuBase #10)
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Released 0 entities from MenuBase #11 Content Manager
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Instance cleaned (MenuBase #11)
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Released 0 entities from MenuBase #12 Content Manager
+[10/27/2020 8:14:22 PM.037] LSPD First Response: [TRACE] Instance cleaned (MenuBase #12)
+[10/27/2020 8:14:22 PM.038] LSPD First Response: [TRACE] Released 0 entities from PoliceStation #11 Content Manager
+[10/27/2020 8:14:22 PM.038] LSPD First Response: [TRACE] Instance cleaned (PoliceStation #11)
+[10/27/2020 8:14:22 PM.050] LSPD First Response: [TRACE] Preloading S_M_M_PRISGUARD_01
+[10/27/2020 8:14:22 PM.051] LSPD First Response: [TRACE] New ped created s_m_m_prisguard_01 (PedType: 6), Agency: Custom ()
+[10/27/2020 8:14:22 PM.052] LSPD First Response: [TRACE] Jacky Coolers (S_M_M_PRISGUARD_01) was set as a cop
+[10/27/2020 8:14:22 PM.052] LSPD First Response: [TRACE] Assigned ped to PoliceStation #11 (Ambient)
+[10/27/2020 8:14:23 PM.135] LSPD First Response: [TRACE] Released 0 entities from VehicleSelector #1 Content Manager
+[10/27/2020 8:14:23 PM.135] LSPD First Response: [TRACE] Instance cleaned (VehicleSelector #1)
+[10/27/2020 8:14:23 PM.152] LSPD First Response: [TRACE] Thread VehicleSelector #1 has been shut down
+[10/27/2020 8:14:33 PM.435] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:33 PM.435] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:33 PM.436] LSPD First Response: [TRACE] Created policeb at X:1981.967 Y:2561.207 Z:55.298
+[10/27/2020 8:14:33 PM.436] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:14:33 PM.436] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:14:33 PM.437] LSPD First Response: [TRACE] Jake Green (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:14:33 PM.437] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:14:39 PM.249] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:39 PM.249] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:39 PM.250] LSPD First Response: [TRACE] Created policeb at X:1891.92 Y:2438.483 Z:55.50004
+[10/27/2020 8:14:39 PM.250] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:14:39 PM.250] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:14:39 PM.251] LSPD First Response: [TRACE] Darren Delarosa (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:14:39 PM.251] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:14:56 PM.555] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:56 PM.556] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:14:56 PM.556] LSPD First Response: [TRACE] Created policeb at X:1982.865 Y:2536.028 Z:54.93573
+[10/27/2020 8:14:56 PM.556] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:14:56 PM.557] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:14:56 PM.557] LSPD First Response: [TRACE] Jeff Macniel (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:14:56 PM.558] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:14:58 PM.408] LSPD First Response: [TRACE] Launching new encounter for Ceez Johnsonn
+[10/27/2020 8:14:58 PM.411] LSPD First Response: [TRACE] New stage is: CrimeStageEncounterInVehicle
+[10/27/2020 8:15:02 PM.172] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:15:02 PM.172] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:15:02 PM.172] LSPD First Response: [TRACE] Created policeb at X:2062.539 Y:2638.278 Z:53.09973
+[10/27/2020 8:15:02 PM.172] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
+[10/27/2020 8:15:07 PM.178] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:15:07 PM.178] LSPD First Response: [TRACE] Preloading POLICEB
+[10/27/2020 8:15:07 PM.178] LSPD First Response: [TRACE] Created policeb at X:1952.968 Y:2527.359 Z:55.50377
+[10/27/2020 8:15:07 PM.178] LSPD First Response: [TRACE] Preloading S_M_Y_HWAYCOP_01
+[10/27/2020 8:15:07 PM.179] LSPD First Response: [TRACE] New ped created s_m_y_hwaycop_01 (PedType: 6), Agency: CityPolice ()
+[10/27/2020 8:15:07 PM.180] LSPD First Response: [TRACE] Duffy Luffy (S_M_Y_HWAYCOP_01) was set as a cop
+[10/27/2020 8:15:07 PM.180] LSPD First Response: [TRACE] AmbientSpawn - spawned: policeb
